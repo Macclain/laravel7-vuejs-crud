@@ -1,0 +1,62 @@
+// Fonts
+@import url('https://fonts.googleapis.com/css?family=Nunito');
+
+// Variables
+@import 'variables';
+
+// Bootstrap
+@import '~bootstrap/scss/bootstrap';
+
+// User's CSS
+html, body {
+background-color: #fff;
+color: #636b6f;
+font-family: 'Raleway', sans-serif;
+font-weight: 100;
+height: auto;
+margin: 0;
+}
+
+label {
+font-weight: bold;
+}
+
+thead {
+background-color: Blue;
+color: White;
+}
+
+.hidden {
+display: none;
+}
+
+.full-height {
+min-height: 100vh;
+}
+
+.flex-center {
+align-items: center;
+display: flex;
+justify-content: center;
+}
+
+.position-ref {
+position: relative;
+}
+
+.top-right {
+position: absolute;
+right: 10px;
+top: 18px;
+}
+
+.content {
+}
+
+.title {
+font-size: 84px;
+}
+
+.sidebar {
+border-right: 1px solid Black;
+}
