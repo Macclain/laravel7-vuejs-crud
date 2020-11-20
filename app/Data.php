@@ -8,4 +8,5 @@ class Data extends Model
 {
     protected $table = "vuecruddata";
     public $timestamps = false;
+    
 }
